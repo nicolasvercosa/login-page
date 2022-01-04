@@ -39,11 +39,11 @@ export default function Form() {
                 />
                 <img className="password_icon" src={password_icon} />
             </label>
-            <div className="box">
                 <label className='remember_me'>
                     <input type="checkbox" /> <span className='remberme_text'>Remember me</span>
                     <span className='checkmark'></span>    
                 </label>
+            <div className="box">
                 <button className="signin_btn" type="submit" onClick={SendForm}>Sign In</button>
             </div>
         </form>
